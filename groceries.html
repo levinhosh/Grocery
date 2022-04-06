@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Styling/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="footer.css" rel="stylesheet" />
+    <script src="Styling/js/jquery-3.6.0.js"></script>
+    <script src="Styling/js/searchgrocery.js"></script>
+    <script src="Styling/js/lightbox.js"></script>
+
+    <style>
+img{
+    height: 100vh;
+    width: 80%;
+}
+p, h3{
+    text-align: center;
+}
+
+    </style>
+
+    <title>Tims Grocery</title>
+  </head>
+  <body  style="background-color: chocolate;">
+    
+<!--------navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">GroceryMarket</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="groceries.html">Our Groceries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="lightbox.html" tabindex="-1">Our Gallery</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0"  autocomplete="off">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search Grocery" id="myInput" name="mygrocery">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search for Grocery</button>
+      </form>
+    </div>
+  </nav>
+
+
+<h3 style="color: cornsilk;">Find a list of all the products that are currently in our store.</h3>
+
+  <div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Product</th>
+            <th scope="col">Price per unit in USD</th>
+            <th scope="col">Variety</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><a href=''>Cabbage</a></td>
+            <td>0.75</td>
+            <td>Red, White</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td><a href=''>Kales</a></td>
+            <td>0.40</td>
+            <td>single</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><a href=''>Broccoli</a></td>
+            <td>0.90</td>
+            <td  id="item_grocery">Purple,Calabrese,Destiny,Eastern Magic,Romanesco</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td><a href=''>Pepper</a></td>
+            <td>0.50</td>
+            <td>Bell,Poblano,Serrano,Cayenne</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td><a href=''>Spinach</a></td>
+            <td>0.55</td>
+            <td>Savoy, Semi-savoy</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td><a href=''>Carrot</a></td>
+            <td>0.75</td>
+            <td>Danvers, Nantes, Imperator, Chantenay and Ball</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td><a href=''>Tomaoes</a></td>
+            <td>0.60</td>
+            <td>Roma</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+  <footer>
+    <section>
+        <ul id="services">
+          
+          <li>
+            <div class="facebook">
+              <a href="https://facebook.com/grocery.com/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Facebook</span>
+          </li>
+          <li>
+            <div class="twitter">
+              <a href="https://twitter.com/grocery.com/">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Twitter</span>
+          </li>
+          <li>
+            <div class="youtube">
+              <a href="https://www.youtube.com/c/grocery.com">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>YouTube</span>
+          </li>
+          <li>
+            <div class="linkedin">
+              <a href="https://www.linkedin.com/company/grocery.com">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>LinkedIn</span>
+          </li>
+          <li>
+            <div class="instagram">
+              <a href="https://www.linkedin.com/company/grocery.com">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Instagram</span>
+          </li>
+          <li>
+            <div class="github">
+              <a href="https://grocery.com">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Github</span>
+          </li>
+        </ul>
+        
+      </section>
+</footer>
+
+
+
+<script src="Styling/js/bootstrap.bundle.js"></script>
+
+
+</script>
+  </body>
+  </html>
+
+
+

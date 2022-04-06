@@ -1,0 +1,9 @@
+For the Website to work We need the database
+
+1. MySQL RDBMS from XAMPP server has been used
+
+2. In your MySQL terminal, Create database named "inventory"
+
+3. Import the "inventory.sql" in this directory ("database/inventory.sql") into "inventory" database you have created in step 2.
+
+4. Good To go.
